@@ -2471,13 +2471,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #C06C84;
-  border-color: #C06C84;
+  background-color: #F67280;
+  border-color: #F67280;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #b5516e;
-  border-color: #ae4b67;
+  background-color: #f89ca6;
+  border-color: #f89ca6;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
