@@ -2,17 +2,17 @@
 
 //- Override and add to color system
 
-$orange: #f4623a;
-$brown: #5c4d42;
+$orange: #C06C84;
+$brown: #C06C84;
 
 //- Override primary color
 $primary: $orange;
 
 //- Override font system
-$font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+$font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont,
+$font-family-serif: "Montserrat", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-base: $font-family-serif;
