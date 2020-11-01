@@ -2471,13 +2471,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #F67280;
-  border-color: #F67280;
+  background-color: #C06C84;
+  border-color: #C06C84;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f89ca6;
-  border-color: #f89ca6;
+  background-color: #b5516e;
+  border-color: #ae4b67;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -10007,7 +10007,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #C06C84;
+  border-color: #F67280;
 }
 
 hr.light {
