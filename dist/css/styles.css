@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #355C7D;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -2501,32 +2501,32 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #F67280;
+  border-color: #F67280;
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
+  background-color: #C45B66;
+  border-color: #C45B66;
 }
 .btn-secondary:focus, .btn-secondary.focus {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  background-color: #b5516e;
+  border-color: #ae4b67;
+  box-shadow: 0 0 0 0.2rem rgba(201, 130, 150, 0.5);
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #C06C84;
+  border-color: #C06C84;
 }
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #545b62;
-  border-color: #4e555b;
+  background-color: ##ae4b67;
+  border-color: #a54762;
 }
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(201, 130, 150, 0.5);
 }
 
 .btn-success {
@@ -9797,7 +9797,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #C06C84 !important;
+  color: #355C7D !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10144,7 +10144,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(192, 108, 132, 0.9);
+  background: rgba(53, 92, 125, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
