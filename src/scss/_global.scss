@@ -25,6 +25,33 @@ hr.light {
     font-family: $font-family-sans-serif;
 }
 
+// Custom button coloring
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #b5516e;
+    border-color: #ae4b67;
+}
+    .btn-secondary:focus, .btn-secondary.focus {
+    color: #fff;
+    background-color: #b5516e;
+    border-color: #ae4b67;
+    box-shadow: 0 0 0 0.2rem rgba(201, 130, 150, 0.5);
+    }
+    .btn-secondary.disabled, .btn-secondary:disabled {
+    color: #fff;
+    background-color: #C06C84;
+    border-color: #C06C84;
+    }
+    .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #ae4b67;
+    border-color: #a54762;
+    }
+    .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(201, 130, 150, 0.5);
+    }
+
 //- Custom XL button styling
 
 .btn-xl {
