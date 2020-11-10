@@ -487,10 +487,6 @@ mark,
   height: auto;
 }
 
-.i-rot {
-  transform: rotate(45deg);
-}
-
 .figure {
   display: inline-block;
 }
