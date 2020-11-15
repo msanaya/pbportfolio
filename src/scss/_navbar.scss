@@ -1,5 +1,6 @@
 // Base styling for the navbar
 #mainNav {
+    z-index: 99;
     box-shadow: $box-shadow;
     background-color: $white;
     transition: background-color 0.2s ease;
@@ -11,7 +12,8 @@
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: $gray-600;
+                // color: $gray-600;
+                color: $black;
                 font-family: $font-family-sans-serif;
                 font-weight: $font-weight-bold;
                 font-size: 0.9rem;
@@ -28,8 +30,11 @@
     }
     @include media-breakpoint-up(lg) {
         // Base styling for the navbar - screen sizes greater than the large breakpoint
-        box-shadow: none;
-        background-color: transparent;
+        box-shadow: $box-shadow;
+        z-index: 99;
+        background-color: white;
+        // opacity: .3;
+        color: black;
         .navbar-brand {
             color: fade-out($white, 0.3);
             &:hover {
