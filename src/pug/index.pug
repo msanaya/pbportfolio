@@ -31,19 +31,21 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3
             .container
-                a.navbar-brand.js-scroll-trigger(href='#page-top') Pilar Barker
+                a.navbar-brand.js-scroll-trigger(style={color: "var(--blue)"})(href='#page-top') Pilar Barker
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ml-auto.my-2.my-lg-0
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#about') About
+                            a.nav-link.js-scroll-trigger(style={color: "var(--blue)"})(href='#about') About
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#services') Skills
+                            a.nav-link.js-scroll-trigger(style={color: "var(--blue)"})(href='#services') Skills
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#portfolio') Projects
+                            a.nav-link.js-scroll-trigger(style={color: "var(--blue)"})(href='#portfolio') Projects
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#contact') Contact
+                            a.nav-link.js-scroll-trigger(style={color: "var(--blue)"})(href='#contact') Contact
+                        li.nav-item
+                            a.nav-link(style={color: "var(--blue)"})(href='assets/img/pilar_resume.docx') Resume
 
         // Masthead
         header.masthead
